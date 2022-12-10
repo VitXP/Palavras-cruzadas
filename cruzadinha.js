@@ -10,12 +10,13 @@ function start() {
         usuario.push(nome)
         erro.innerHTML = ``
         // inicio.innerHTML = ``
-
+        sessionStorage.NOME = usuario[0]
         window.location.href = "jogo.html"
     }
 
 }
 
 function carregar() {
-    let usuario_atual = usuario[0]
+    let usuario_nome = sessionStorage.NOME
+    usuario_atual.innerHTML = usuario_nome; 
 }
