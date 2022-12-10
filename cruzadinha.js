@@ -11,7 +11,7 @@ function start() {
         erro.innerHTML = ``
         // inicio.innerHTML = ``
         sessionStorage.NOME = usuario[0]
-        window.location.href = "jogo.html"
+        window.location.href = "cruzadinha.html"
     }
 
 }
@@ -264,3 +264,6 @@ function proxima() {
         respondendo = 1
     } 
 }
+
+
+
